@@ -7,5 +7,5 @@ local ScriptURL = GameScripts[game.PlaceId]
 if ScriptURL then
     loadstring(game:HttpGet(ScriptURL, true))()
 else
-    loadstring(game:HttpGet("YOUR_HUB_URL_HERE", true))() -- Replace with your hub loader
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vaendeus/VadeHubScripts/refs/heads/main/GameNotSupported", true))()
 end
