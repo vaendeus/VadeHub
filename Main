@@ -1,0 +1,10 @@
+local gameScripts = {
+    [18799085098] = "",       -- 💀 Hide or Die!
+}
+
+local currentGameId = game.PlaceId
+local scriptUrl = gameScripts[currentGameId]
+
+if scriptUrl then
+    loadstring(game:HttpGet(scriptUrl, true))()
+end
