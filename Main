@@ -1,10 +1,11 @@
-local gameScripts = {
-    [18799085098] = "",       -- 💀 Hide or Die!
+local GameScripts = {
+    [18799085098] = "https://raw.githubusercontent.com/vaendeus/VadeHubScripts/main/HideorDie"
 }
 
-local currentGameId = game.PlaceId
-local scriptUrl = gameScripts[currentGameId]
+local ScriptURL = GameScripts[game.PlaceId]
 
-if scriptUrl then
-    loadstring(game:HttpGet(scriptUrl, true))()
+if ScriptURL then
+    loadstring(game:HttpGet(ScriptURL, true))()
+else
+    loadstring(game:HttpGet("YOUR_HUB_URL_HERE", true))() -- Replace with your hub loader
 end
