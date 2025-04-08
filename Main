@@ -1,5 +1,5 @@
 local GameScripts = {
-    [18799085098] = "https://raw.githubusercontent.com/vaendeus/VadeHubScripts/main/HideorDie"
+    [123456789] = "https://raw.githubusercontent.com/vaendeus/VadeHubScripts/main/SOMESCRIPT"
 }
 
 local ScriptURL = GameScripts[game.PlaceId]
